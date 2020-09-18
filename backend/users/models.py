@@ -11,13 +11,6 @@ class User(AbstractUser):
         blank=True,
         max_length=255,
     )
-    vnbvnv = models.OneToOneField(
-        "home.CustomText",
-        null=True,
-        blank=True,
-        on_delete=models.CASCADE,
-        related_name="user_vnbvnv",
-    )
     nbvbnvnbv = models.BigIntegerField(
         null=True,
         blank=True,
