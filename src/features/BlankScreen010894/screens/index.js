@@ -277,7 +277,7 @@ export class __Blank extends React.Component {
           overflow: "visible",
           fontSize: 12,
           color: "#000000",
-          backgroundColor: "#ffffff",
+          backgroundColor: "#c99797",
           fontStyle: "normal",
           fontWeight: "normal",
           borderColor: "#000000",
