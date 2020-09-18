@@ -13,10 +13,14 @@ class User(AbstractUser):
     )
     vnbvnv = models.OneToOneField(
         "home.CustomText",
-        on_delete=models.CASCADE,
         null=True,
         blank=True,
+        on_delete=models.CASCADE,
         related_name="user_vnbvnv",
+    )
+    nbvbnvnbv = models.BigIntegerField(
+        null=True,
+        blank=True,
     )
 
     def get_absolute_url(self):
