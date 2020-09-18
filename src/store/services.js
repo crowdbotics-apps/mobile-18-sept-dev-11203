@@ -1,4 +1,8 @@
 import axios from "axios"
+const newPluginXXXX = axios.create({
+  baseURL: "https://a.com",
+  headers: { Accept: "application/json", "Content-Type": "application/json" }
+})
 const mobile18septAPI = axios.create({
   baseURL: "https://mobile-18-sept-dev-11203.botics.co/",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
