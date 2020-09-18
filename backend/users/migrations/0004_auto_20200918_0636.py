@@ -6,18 +6,18 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('users', '0003_remove_user_hgjgjhg'),
+        ("users", "0003_remove_user_hgjgjhg"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='user',
-            name='hgttututyut',
+            model_name="user",
+            name="hgttututyut",
             field=models.GenericIPAddressField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='user',
-            name='hjgggjg',
+            model_name="user",
+            name="hjgggjg",
             field=models.BigIntegerField(blank=True, null=True),
         ),
     ]
