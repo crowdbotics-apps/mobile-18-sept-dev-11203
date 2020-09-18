@@ -11,6 +11,16 @@ class User(AbstractUser):
         blank=True,
         max_length=255,
     )
+    gfghfg = models.BigIntegerField(
+        null=True,
+        blank=True,
+    )
+    hjgjhgjg = models.DecimalField(
+        max_digits=30,
+        decimal_places=10,
+        null=True,
+        blank=True,
+    )
 
     def get_absolute_url(self):
         return reverse("users:detail", kwargs={"username": self.username})
